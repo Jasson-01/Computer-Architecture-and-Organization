@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(){
+    char c = 100;
+    short s = -8712;
+    int i = 123456;
+    long l = 1234567890;
+    
+    // sizeof() --> devuelve el tamaño en bytes de un tipo de dato.
+    printf("char(%lu): %d \n", sizeof(c),c);
+    printf("short(%lu): %d \n", sizeof(s),s);
+    printf("int(%lu): %d \n", sizeof(i),i);
+    printf("long(%lu): %ld \n", sizeof(l),l);
+    
+    return 0;
+}
